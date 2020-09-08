@@ -79,7 +79,10 @@ body, p {
 }
 
 
-
+p span {
+	color: #14bf98;
+	font-weight: bold;
+}
 h1.rotating-header {
 	color: #484a46;
 	font: 700 2.5rem/3rem "Montserrat", sans-serif;
@@ -111,8 +114,12 @@ h5 {
 }
 
 h6 {
-	color: #484a46;
+	color: #14;
 	font: 700 1rem/1.375rem "Montserrat", sans-serif;
+}
+
+h6 span {
+	color: #14bf98 !important;
 }
 
 a {
@@ -1226,10 +1233,11 @@ input[type='checkbox'] {
 	background-color: transparent;
 }
 
-.centered {
-  position: fixed; /* or absolute */
-  top: 50%;
-  left: 50%;
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
 }
 
 .slider .card-image {
